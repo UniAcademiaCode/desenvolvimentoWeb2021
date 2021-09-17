@@ -1,0 +1,34 @@
+
+
+.caixa{
+    margin: 10px;
+    border: solid blue 2px;
+    padding: 5px;
+    width: 200px;
+}
+
+.amarela{
+    background-color: yellow;
+}
+
+.verde{
+    background-color: greenyellow;
+}
+
+.sombra{
+    box-shadow: 5px 5px 5px #000;
+}
+
+.arredondamento{
+    border-radius: 10px;
+}
+
+.redondo{
+    border-radius: 50%;
+}
+
+.display{
+
+    display: none;
+
+}

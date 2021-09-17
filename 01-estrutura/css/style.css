@@ -1,0 +1,41 @@
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 22px;
+}
+
+p{
+
+    font-style: italic;
+    color: red;
+    /* font-size: 50px; */
+
+}
+
+#cont01{
+    color: red;
+    text-align: center;
+    cursor: progress;
+    font-variant: small-caps;
+    font-size: 2em;
+}
+
+.fontCalligrafi{
+
+    font-family: calligrafy, Arial, Helvetica, sans-serif;
+}
+
+.efeito{
+
+    color: rgb(18, 47, 143);
+}
+
+p.centralizar{
+    text-align: center;
+}
+
+.negrito{
+
+    font-weight:  bolder;
+
+}

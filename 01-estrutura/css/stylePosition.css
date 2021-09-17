@@ -1,0 +1,45 @@
+
+
+.caixa{
+
+    background-color: blue;
+    color: #fff;
+    margin: 0;
+    /* margin-top: 100px; */
+    /* width: 100px; */
+}
+
+.dv{
+    /* position: static; */
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px #fff;
+
+}
+
+
+.amarela{
+    background-color: yellow;
+    color: #000;
+    position: relative;
+    width: 200px;
+    left: 85px;
+    bottom: 67px;
+}
+
+.verde{
+    background-color: greenyellow;
+    position: relative;
+    width: 50px;
+    top: -20px; 
+    /* left: 50px; 
+    bottom: 100px; */
+}
+
+.laranja{
+    background-color: orange;
+    position: relative;
+    width: 100px;
+    left: 320px;
+    bottom: 114px;
+}

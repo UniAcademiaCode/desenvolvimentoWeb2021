@@ -1,0 +1,49 @@
+/* resetar */
+*{
+
+   box-sizing: border-box; 
+}
+
+.borda{
+    /* border-right: 15px; 
+    border-top: 8px;
+    border-style: solid;
+    border-color: red; */
+
+    border: 10px red groove;
+
+    /* border-top: 2px; */
+    /* border: 0px 4px 3px 15px; */
+    /* outline: 10px green solid; */
+}
+
+#titulo{
+
+    width: 150px;
+
+}
+
+/* 150px+30px+18px+10px */
+
+.espacoInterno{
+    padding: 15px;
+}
+
+.espacoExterno{
+    /* margin: 50px 20px; margin: 50px 20px 50px 20px ; */
+    /* margin: 50px; -  margin: 50px 50px 50px 50px ; */
+    /* margin: 50px 8px 5px 8px ; */
+    /* margin-top: 50px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    margin-left: 8px; */
+}
+
+h1.destaque{
+
+    border-left: 5px solid red ;
+    padding-left: 10px;
+    background-color: rgb(171, 175, 170);
+
+    text-transform: uppercase;
+}
