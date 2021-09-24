@@ -1,0 +1,57 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.caixa{
+    background-color: blue;
+    color: #fff;
+    margin: 0;
+}
+
+.center{
+   position: relative;
+   top: 50px;
+}
+
+#menu{
+     padding-top: 20px; 
+
+    float: left;
+    height: 200px;
+     /* width: 50px;  */
+}
+
+#side{
+    float: right;
+    height: 200px;
+}
+
+#texto{
+    /* float: left; */
+}
+
+#rodape{
+    background-color: darkgray;
+    clear: both;
+}
+
+.dv{
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px #fff;
+}
+
+.amarela{
+    background-color: yellow;
+    color: #000;
+}
+
+
+.verde{
+    background-color: greenyellow;
+}
+
+.laranja{
+    background-color: orange;
+}

@@ -1,11 +1,13 @@
 
 
 .caixa{
+    /* position: relative; */
 
     background-color: blue;
     color: #fff;
     margin: 0;
-    /* margin-top: 100px; */
+     /* margin-top: 100px;  */
+     /* height: 200vh; */
     /* width: 100px; */
 }
 
@@ -21,26 +23,15 @@
 .amarela{
     background-color: yellow;
     color: #000;
-    position: relative;
-    width: 200px;
-     left: 85px;
-    bottom: 67px; 
 }
 
 
 .verde{
     background-color: greenyellow;
-    position: relative;
-    width: 50px;
-    top: -20px; 
-    /* left: 50px; 
-    bottom: 100px; */
 }
 
 .laranja{
     background-color: orange;
-    position: relative;
-    width: 100px;
-    left: 320px;
-    bottom: 114px;
+    position: sticky;
+    top: 10px;
 }
