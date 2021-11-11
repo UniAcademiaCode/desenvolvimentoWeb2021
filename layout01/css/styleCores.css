@@ -1,0 +1,51 @@
+
+
+header, div{
+    background-color: rgb(233, 186, 99);
+}
+
+main{
+    background-color: rgb(221, 58, 58);
+}
+
+footer{
+    background-color: rgb(104, 181, 248);
+}
+
+.caixa{
+
+    background-color: aqua;
+
+}
+img{
+    background-color: rgb(0, 146, 146);
+}
+
+.titulo{
+
+    background-color: rgb(64, 185, 48);
+}
+
+nav{
+    background-color: rgb(201, 24, 162);
+}
+
+aside{
+    background-color: #ff0;
+}
+
+#menuLateral{
+    background-color: rgb(206, 53, 147);
+}
+
+section{
+    background-color:rgb(241, 232, 232);
+}
+
+article{
+    background-color: darkcyan;
+}
+
+.cursos article img{
+    background-color: #fff;
+}

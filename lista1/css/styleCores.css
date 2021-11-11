@@ -1,0 +1,25 @@
+
+
+body{
+    background-color: rgb(177, 165, 165);
+}
+
+header{
+    background-color: rgb(236, 8, 8);
+}
+
+main{
+    background-color: rgb(107, 99, 223);
+}
+
+aside{
+    background-color: rgb(139, 230, 112);
+}
+
+article{
+    background-color: rgb(233, 241, 109);
+}
+
+footer{
+    background-color: rgb(218, 63, 210);
+}

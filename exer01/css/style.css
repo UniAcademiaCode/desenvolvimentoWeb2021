@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-size: 16px;
+    line-height: 20px;
+    color: #667;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.barra-lateral{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #999;
+    color: white;
+    position: fixed; 
+    bottom: 0;
+}
+
+.topo{
+    padding: 30px;
+}
+
+.logo-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.logo-image img{
+    width: 100%;
+}
+
+h3.titulo{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+p.descricao{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.menu-lateral ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral ul li a{
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 0.1em;
+    display: block;
+}
+
+.menu-lateral ul li{
+    padding-bottom: 5; 
+    padding-top: 5; 
+    
+}
+
+.menu-lateral ul li a i {
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+.menu-lateral ul li a.active{
+    background-color: #667;
+}
+
+.redes-sociais{
+    padding-top: 20px;
+}
+
+.redes-sociais ul li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.corpo, #cab{
+
+    float: right;
+    width: 80%;
+}
+
+#cab{
+    padding: 30px 30px;
+    background: url(../img/f1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.titulo h1{
+    font-size: 32px;
+}
+
+.titulo h5{
+    font-size: 14;
+}
+
+.titulo nav{
+    float: right;
+    color: white;
+}
+
+.titulo nav ul li{
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+.titulo nav ul li a{
+    color: white;
+}
+
+.rodape{
+    border-top: 4px solid #999;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.rodape div p.texto{
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.corpo{
+    padding: 10px 40px;
+}
