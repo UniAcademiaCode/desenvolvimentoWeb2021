@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input class="visor" type="number" id="value1" placeholder="0" />
+
+      <input class="visor" type="number" id="value2" placeholder="0" />
+
+      <div class="linha">
+        <button type="button" name="btn1" data-op="0" class="botao">
+          Zerar
+        </button>
+
+        <button
+          type="button"
+          name="btn2"
+          data-op="%"
+          data-xpto="bla"
+          class="botao"
+        >
+          %
+        </button>
+
+        <button type="button" name="btn3" data-op="/" class="botao">/</button>
+      </div>
+
+      <div class="linha">
+        <button type="button" name="btn4" data-op="+" class="botao">+</button>
+
+        <button type="button" name="btn5" data-op="-" class="botao">-</button>
+
+        <button type="button" name="btn6" data-op="x" class="botao">X</button>
+      </div>
+
+      <div class="resultado">Resultado :: 0.0</div>
+
+      <div class="linha">
+          <button class="botao" id="btnExibir">exibir</button>
+          <button class="botao" id="btnListar">listar</button>
+        </div>
+
+        <div id="dvForm" class="linha hide">               
+            Nome:
+            <input type="text" class="visor campo " >            
+            
+            filhos:
+            <input type="number" class="visor campo ">
+
+            salario:
+            <input type="text" class="visor campo ">
+
+            <button class="botao" id="btnSalvar">Salvar</button>
+        </div>
+    </div>
+
+    <script src="js/script.js" ></script>
+    <script src="js/script2.js" ></script>
+  </body>
+</html>
